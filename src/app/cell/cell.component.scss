@@ -1,0 +1,26 @@
+.cell {
+  height: 30px;
+  width: 30px;
+  background-color: #cdd4de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 2px;
+  transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+  user-select: none;
+
+  &:focus {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.cell__image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}

@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "minesweeper"
+    }
+  },
+  "defaultProject": "minesweeper",
+  "cli": {
+    "analytics": "52cf1025-32ff-4bc4-8353-c5ea50aaaaba"
+  }
 }

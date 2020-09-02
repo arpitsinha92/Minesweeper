@@ -1,0 +1,10 @@
+<button type="button" class="cell" (click)="onClick()">
+
+  <ng-container [ngSwitch]="cell.label">
+    <ng-container *ngSwitchCase="'M'">
+      <img class="cell__image" src="../../assets/mine.png" alt="mines">
+    </ng-container>
+    <ng-container *ngSwitchDefault>
+      {{ cell.label }}
+    </ng-container>
+  </ng-container>
